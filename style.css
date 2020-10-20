@@ -1,0 +1,41 @@
+html{
+    background: white;
+}
+
+.logo{
+ text-align: left;
+}
+
+.upper_header{
+    display:flex;
+    flex-flow: row wrap;
+
+    font-size: 10px;
+    background-color:#F8F8FF;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-left: 10%;
+}
+
+.need_help{
+  background-color: #EFEFEF;
+    width: 820px;
+    margin: 20px
+}
+
+.gift_card{
+  background-color:#EFEFEF;
+    width:70px;
+    margin: 20px
+
+
+}
+
+.loyalty{
+  background-color:#EFEFEF;
+    width:70px;
+    margin: 20px
+
+
+  }
