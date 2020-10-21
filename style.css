@@ -1,3 +1,5 @@
+
+
 html{
     background: white;
 }
@@ -42,4 +44,17 @@ html{
     padding-top: 20px;
     width: 70px;
     
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.logo{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 20px;
 }
