@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Hotel's Hideout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
 </head>
 
 <header>
-    <div class="upper_header">
-            <div class="need_help">Need Help? Call us on (+123)456789</div>
+    <div class="upper_header"> 
+            <div class="need_help">Need Help? Call us on (+123)456789</div>            
             <div class="gift_card">BTP Gift Card </div>
             <div class="loyalty">Loyalty Program</div>
     </div>
 
-    <div class="logo">
-        Hotel's Hideout
+    <div class="header"> 
+        <div class="logo">
+           Hotel's Hideout
+        </div>
     </div>
 </header>
 
