@@ -24,10 +24,9 @@ html{
 
 .need_help{
     /*border: solid green 2px;
-    background-color: greenyellow;*/
-    margin-left: 15%;    
-    padding-left: 20px;
+    background-color: greenyellow;*/    
     padding-top: 20px;
+    margin-left: 15%;    
     width: 610px;
     
 }
@@ -66,9 +65,9 @@ html{
 
 
 .logo{
-    margin-left:15%;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 20px;    
+    margin-left:18%;
+    margin-right: 15%;
+    font-family: 'Sansita Swashed', cursive;    
     border: solid green 2px;
 }
 
@@ -76,7 +75,12 @@ html{
 .search_field{
     background-color: #F8F8FF;
     height: 50px;
-    width:250px;    
-    align-items: center;
+    width:250px;
+    font-size: 10px;       
     
+}
+
+.search_field p{
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
 }
