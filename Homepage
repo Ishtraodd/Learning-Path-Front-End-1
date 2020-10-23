@@ -11,15 +11,25 @@
 
 <header>
     <div class="upper_header"> 
-            <div class="need_help">Need Help? Call us on (+123)456789</div>            
-            <div class="gift_card">BTP Gift Card </div>
-            <div class="loyalty">Loyalty Program</div>
+            <div class="need_help">
+                <p>Need Help? Call us on (+123)456789</p>
+            </div>  
+            <div class="gift_card">
+                <p>BTP Gift Card</p>
+            </div>
+            <div class="loyalty">
+                <p>Loyalty Program</p>
+            </div>
     </div>
 
     <div class="header"> 
         <div class="logo">
-           Hotel's Hideout
+           <img src="images/logo.png" alt="Hotel's Hideout" height="50px" width="90px">
         </div>
+        <div class="search_field">
+            <p>Search location</p>
+        </div>
+
     </div>
 </header>
 
