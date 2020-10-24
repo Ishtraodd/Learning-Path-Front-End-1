@@ -1,4 +1,5 @@
 
+
 html{
     background: white;
 }
@@ -8,6 +9,7 @@ html{
 }
 
 .upper_header{
+    border-radius: 5px;
     background-color:#F8F8FF;
     font-size: 10px;
     height: 50px;
@@ -65,15 +67,17 @@ html{
 
 .logo {
     margin-left:18%;
-    margin-right: 15%;
+    margin-right: 5%;
     font-family: 'Sansita Swashed', cursive;
+    width: 150px;
 }
 
 
 .search_field{
+    border-radius: 5px 0px 0px 5px;
     background-color: #F8F8FF;
     height: 50px;
-    width:250px;
+    width:200px;
     font-size: 10px;       
     
 }
@@ -83,17 +87,8 @@ html{
     padding: 10px 10px 10px 10px;
 }
 
-
-
-.search_field{
-    background-color: #F8F8FF;
-    height: 50px;
-    width:250px;
-    font-size: 10px;       
-    
+.search_field_btn{
+    border-radius: 0px 5px 5px 0px;
+    background-color: red;
 }
 
-.search_field p{
-    font-size: 10px;
-    padding: 10px 10px 10px 10px;
-}
