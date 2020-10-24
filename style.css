@@ -1,5 +1,4 @@
 
-
 html{
     background: white;
 }
@@ -11,20 +10,20 @@ html{
 .upper_header{
     background-color:#F8F8FF;
     font-size: 10px;
-    height: 60px;
-    padding: 5px;
+    height: 50px;
+    /*padding: 5px;*/
     margin-left: 0;
     margin-right: 0;
     display: flex;
     flex-flow: row wrap;    
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     align-content: flex-start;
 }
 
 .need_help{
     /*border: solid green 2px;
-    background-color: greenyellow;*/    
+    background-color: greenyellow;*/
     padding-top: 20px;
     margin-left: 15%;    
     width: 610px;
@@ -64,12 +63,26 @@ html{
 }
 
 
-.logo{
+.logo {
     margin-left:18%;
     margin-right: 15%;
-    font-family: 'Sansita Swashed', cursive;    
-    border: solid green 2px;
+    font-family: 'Sansita Swashed', cursive;
 }
+
+
+.search_field{
+    background-color: #F8F8FF;
+    height: 50px;
+    width:250px;
+    font-size: 10px;       
+    
+}
+
+.search_field p{
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
 
 
 .search_field{
