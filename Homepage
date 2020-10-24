@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hotel's Hideout</title>
+    <title>Best tour plan</title>
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap" rel="stylesheet">
 </head>
 
@@ -23,9 +23,22 @@
     </div>
 
     <div class="header"> 
+
         <div class="logo">
-           <img src="images/logo.png" alt="Hotel's Hideout" height="50px" width="90px">
+            <span style="color:Black">B</span>
+            <span style="color:Black">e</span>
+            <span style="color:Black">s</span>
+            <span style="color:Black">t</span>
+            <span style="color:Red">T</span>
+            <span style="color:Red">o</span>
+            <span style="color:Red">u</span>
+            <span style="color:Red">r</span>
+            <span style="color:Black">P</span>
+            <span style="color:Black">l</span>
+            <span style="color:Black">a</span>
+            <span style="color:Black">n</span>        
         </div>
+
         <div class="search_field">
             <p>Search location</p>
         </div>
