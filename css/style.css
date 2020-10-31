@@ -4,10 +4,7 @@ html{
     background: white;
 }
 
-.logo{
- text-align: left;
-}
-
+/* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
 .upper_header{
     font-family: 'Heebo', sans-serif;
     border-radius: 5px;
@@ -23,7 +20,7 @@ html{
     justify-content: center;
     align-content: flex-start;
 }
-
+/*stile per la riga inerente alla pagina aiuto*/
 .need_help{
     /*border: solid green 2px;
     background-color: greenyellow;*/
@@ -32,7 +29,7 @@ html{
     width: 580px;
     
 }
-
+/*stile per la riga inerente alla pagina punti*/
 .gift_card{
     /*background-color: greenyellow;
     border: solid green 2px;*/
@@ -43,6 +40,7 @@ html{
     
 } 
 
+/*stile per la riga inerente alla pagina punti fedeltà*/
 .loyalty{
     /*background-color: greenyellow;
     border: solid green 2px;*/
@@ -54,6 +52,7 @@ html{
     
 }
 
+/*sezione dell'header principale con campo ricerca*/
 .header{
     font-family: 'Heebo', sans-serif;
     background-color: white;    
@@ -68,7 +67,7 @@ html{
 
 }
 
-
+/*nome sito*/
 .logo {
     margin-top: 15px;
     margin-left: 15%;
@@ -77,7 +76,7 @@ html{
     width: 250px;
 }
 
-
+/*campo ricerca*/
 .search_field{
     margin-top: 15px;
     border-radius: 5px 0px 0px 5px;
@@ -87,13 +86,14 @@ html{
     font-size: 10px;       
     
 }
-
+/*testo campo ricerca*/
 .search_field p{
     margin-top: 10px;
     font-size: 10px;
     padding: 8px 8px 8px 8px;
 }
 
+/*pulsante ricerca*/
 .search_field_btn{
     margin-top: 15px;
     border-radius: 0px 5px 5px 0px;
@@ -101,6 +101,7 @@ html{
     padding: 16px 16px 16px 16px;
 }
 
+/*icona carrello*/
 .shop_icon{
     margin-top: 15px;
     /*width: 60px;
@@ -109,6 +110,7 @@ html{
     padding: 16px 16px 16px 16px;
 }
 
+/*immagine profilo di collegamento alla pagina profilo*/
 .user_icon{
     margin-top: 15px;
     margin-left: 80px;
@@ -118,17 +120,21 @@ html{
     border-radius: 50%;
 }
 
+/*nome utente*/
 .user_name{
     margin-top: 15px;
     margin-left: 50px;    
     font-size: 10px;
 }
 
+/*freccia menu a discesa*/
 .fa-caret-down{
     margin-top: 15px;
-    margin-left: 50px;    
+    margin-left: 20px;
+    margin-right: 10px;    
 }
 
+/* menu di navigazione, stile*/
 .menunav{
     background-color: #193B80;
     overflow: hidden;
@@ -136,6 +142,7 @@ html{
     margin-left: 15%;
 }
 
+/*menu navigazione, stile testo*/
 .menunav a{
     float: left;
     color: white;
