@@ -9,7 +9,7 @@ html{
 }
 
 .upper_header{
-    font-family: 'Roboto', cursive;
+    font-family: 'Heebo', sans-serif;
     border-radius: 5px;
     background-color:#F8F8FF;
     font-size: 9px;
@@ -55,7 +55,7 @@ html{
 }
 
 .header{
-    font-family: 'Roboto', cursive;
+    font-family: 'Heebo', sans-serif;
     background-color: white;    
     height: 120px;
     padding: 5px;
@@ -89,7 +89,7 @@ html{
 }
 
 .search_field p{
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 10px;
     padding: 8px 8px 8px 8px;
 }
@@ -120,15 +120,13 @@ html{
 
 .user_name{
     margin-top: 15px;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 50px;    
     font-size: 10px;
 }
 
 .fa-caret-down{
     margin-top: 15px;
-    margin-left: 50px;
-    margin-top: 5px;
+    margin-left: 50px;    
 }
 
 .menunav{
