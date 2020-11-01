@@ -72,11 +72,36 @@ html{
     margin-top: 15px;
     margin-left: 15%;
     margin-right: 5%;
-    font-family: 'Patua One', cursive;
-    width: 250px;
+    font-family: 'Luckiest Guy', cursive;
+    width: 240px;
+    font-size: 20px;
+    
 }
 
 /*campo ricerca*/
+form.search input[type=text]{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f8f8ff;
+    border-color: darkblue;
+    height: 50px;
+    width: 190px;
+    font-size: 10px;   
+}
+
+/*pulsante ricerca*/
+form.search button{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: red;
+    padding: 16px 16px 16px 16px;
+    border: currentColor;
+}
+
+/*
 .search_field{
     margin-top: 15px;
     border-radius: 5px 0px 0px 5px;
@@ -85,21 +110,22 @@ html{
     width: 190px;
     font-size: 10px;       
     
-}
-/*testo campo ricerca*/
+}*/
+
+/*
 .search_field p{
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     padding: 8px 8px 8px 8px;
-}
+}*/
 
-/*pulsante ricerca*/
+/*
 .search_field_btn{
     margin-top: 15px;
     border-radius: 0px 5px 5px 0px;
     background-color: red;
     padding: 16px 16px 16px 16px;
-}
+}*/
 
 /*icona carrello*/
 .shop_icon{
