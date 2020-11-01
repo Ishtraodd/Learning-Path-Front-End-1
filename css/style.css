@@ -1,47 +1,47 @@
-
-
-html{
+html {
     background: white;
 }
 
 /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
-.upper_header{
+.upper_header {
     font-family: 'Heebo', sans-serif;
     border-radius: 5px;
-    background-color:#F8F8FF;
+    background-color: #F8F8FF;
     font-size: 9px;
     height: 50px;
     /*padding: 5px;*/
     margin-left: 0;
     margin-right: 0;
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     align-content: flex-start;
 }
+
 /*stile per la riga inerente alla pagina aiuto*/
-.need_help{
+.need_help {
     /*border: solid green 2px;
     background-color: greenyellow;*/
     padding-top: 15px;
-    margin-left: 15%;    
+    margin-left: 15%;
     width: 580px;
-    
+
 }
+
 /*stile per la riga inerente alla pagina punti*/
-.gift_card{
+.gift_card {
     /*background-color: greenyellow;
     border: solid green 2px;*/
     margin-left: 30px;
     padding-left: 20px;
     padding-top: 15px;
     width: 90px;
-    
-} 
+
+}
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
-.loyalty{
+.loyalty {
     /*background-color: greenyellow;
     border: solid green 2px;*/
     margin-right: 15%;
@@ -49,13 +49,13 @@ html{
     padding-left: 20px;
     padding-top: 15px;
     width: 90px;
-    
+
 }
 
 /*sezione dell'header principale con campo ricerca*/
-.header{
+.header {
     font-family: 'Heebo', sans-serif;
-    background-color: white;    
+    background-color: white;
     height: 120px;
     padding: 5px;
     margin-left: 0;
@@ -69,36 +69,36 @@ html{
 
 /*nome sito*/
 .logo {
-    margin-top: 15px;
+
     margin-left: 15%;
     margin-right: 5%;
     font-family: 'Luckiest Guy', cursive;
     width: 240px;
     font-size: 20px;
-    
+
 }
 
 /*campo ricerca*/
-form.search input[type=text]{
+form.search input[type=text] {
     font-family: 'Heebo', sans-serif;
-    margin-top: 10px;
     border-radius: 5px 0px 0px 5px;
     background-color: #f8f8ff;
     border-color: darkblue;
-    height: 50px;
+    height: 30px;
     width: 190px;
-    font-size: 10px;   
+    font-size: 10px;
 }
 
 /*pulsante ricerca*/
-form.search button{
-    margin-top: 10px;
-    height: 50px;
-    width: 50px;
+form.search button {
+    font-family: 'Heebo', sans-serif;
     border-radius: 0px 5px 5px 0px;
     background-color: red;
-    padding: 16px 16px 16px 16px;
-    border: currentColor;
+    border-color: darkblue;
+    height: 30px;
+    width: 30px;
+    font-size: 10px;
+
 }
 
 /*
@@ -128,17 +128,16 @@ form.search button{
 }*/
 
 /*icona carrello*/
-.shop_icon{
-    margin-top: 15px;
+.shop_icon {
+
     /*width: 60px;
     height: 50px;*/
-    margin-left: 90px;    
+    margin-left: 90px;
     padding: 16px 16px 16px 16px;
 }
 
 /*immagine profilo di collegamento alla pagina profilo*/
-.user_icon{
-    margin-top: 15px;
+.user_icon {
     margin-left: 80px;
     height: 40px;
     width: 40px;
@@ -147,21 +146,19 @@ form.search button{
 }
 
 /*nome utente*/
-.user_name{
-    margin-top: 15px;
-    margin-left: 50px;    
+.user_name {
+    margin-left: 50px;
     font-size: 10px;
 }
 
 /*freccia menu a discesa*/
-.fa-caret-down{
-    margin-top: 15px;
+.fa-caret-down {
     margin-left: 20px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
 /* menu di navigazione, stile*/
-.menunav{
+.menunav {
     background-color: #193B80;
     overflow: hidden;
     margin-top: 15px;
@@ -169,7 +166,7 @@ form.search button{
 }
 
 /*menu navigazione, stile testo*/
-.menunav a{
+.menunav a {
     float: left;
     color: white;
     text-align: center;
