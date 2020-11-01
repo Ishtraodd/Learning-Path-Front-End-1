@@ -2,15 +2,151 @@ html{
     height: 100%;
 }
 
+
+/* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
 .upper_header{
-    background-color: darkgray;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 5px;
+    background-color:#F8F8FF;
+    font-size: 9px;
+    height: 50px;
+    /*padding: 5px;*/
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-flow: row wrap;    
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
 }
-
+/*stile per la riga inerente alla pagina aiuto*/
 .need_help{
-    font-size: 10px;
-    float: left;
+    /*border: solid green 2px;
+    background-color: greenyellow;*/
+    padding-top: 15px;
+    margin-left: 15%;    
+    width: 580px;
+    
+}
+/*stile per la riga inerente alla pagina punti*/
+.gift_card{
+    /*background-color: greenyellow;
+    border: solid green 2px;*/
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 90px;
+    
+} 
+
+/*stile per la riga inerente alla pagina punti fedeltà*/
+.loyalty{
+    /*background-color: greenyellow;
+    border: solid green 2px;*/
+    margin-right: 15%;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 90px;
+    
 }
 
-.gift_card{
-    font
+/*sezione dell'header principale con campo ricerca*/
+.header{
+    font-family: 'Heebo', sans-serif;
+    background-color: white;    
+    height: 120px;
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+
+}
+
+/*nome sito*/
+.logo {
+    margin-top: 15px;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-family: 'Patua One', cursive;
+    width: 250px;
+}
+
+/*campo ricerca*/
+.search_field{
+    margin-top: 15px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #f8f8ff;
+    height: 50px;
+    width: 190px;
+    font-size: 10px;       
+    
+}
+/*testo campo ricerca*/
+.search_field p{
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 8px 8px 8px 8px;
+}
+
+/*pulsante ricerca*/
+.search_field_btn{
+    margin-top: 15px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: red;
+    padding: 16px 16px 16px 16px;
+}
+
+/*icona carrello*/
+.shop_icon{
+    margin-top: 15px;
+    /*width: 60px;
+    height: 50px;*/
+    margin-left: 90px;    
+    padding: 16px 16px 16px 16px;
+}
+
+/*immagine profilo di collegamento alla pagina profilo*/
+.user_icon{
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/*nome utente*/
+.user_name{
+    margin-top: 15px;
+    margin-left: 50px;    
+    font-size: 10px;
+}
+
+/*freccia menu a discesa*/
+.fa-caret-down{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;    
+}
+
+/* menu di navigazione, stile*/
+.menunav{
+    background-color: #193B80;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 15%;
+}
+
+/*menu navigazione, stile testo*/
+.menunav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
