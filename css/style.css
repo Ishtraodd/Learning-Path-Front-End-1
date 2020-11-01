@@ -21,30 +21,30 @@ html {
 
 /*stile per la riga inerente alla pagina aiuto*/
 .need_help {
-
+    border-color: darkblue;
     padding-top: 15px;
     margin-left: 15%;
     width: 580px;
-
+    
 }
 
 /*stile per la riga inerente alla pagina punti*/
 .gift_card {
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
     padding-left: 20px;
     padding-top: 15px;
-    width: 90px;
+    width: 80px;
 
 }
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
 .loyalty {
+    border-color: darkblue;
     margin-right: 15%;
-    margin-left: 40px;
-    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 15px;
-    width: 90px;
-
+    width: 100px;
 }
 
 /*sezione dell'header principale con campo ricerca*/
@@ -80,9 +80,8 @@ form.search input[type=text] {
     font-family: 'Heebo', sans-serif;
     border-radius: 5px 0px 0px 5px;
     background-color: #f8f8ff;
-    height: 30px;
+    height: 28px;
     width: 190px;
-    font-size: 10px;
     border-bottom-style: hidden;
     border-top-style: hidden;
     border-right-style: hidden;
@@ -96,7 +95,6 @@ form.search button {
     background-color: red;
     height: 30px;
     width: 30px;
-    font-size: 10px;
     border-bottom-style: hidden;
     border-top-style: hidden;
     border-right-style: hidden;
