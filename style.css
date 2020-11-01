@@ -4,7 +4,7 @@ html{
 
 /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
 .upper_header{
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Mulish', sans-serif;
     border-radius: 5px;
     background-color:#F8F8FF;
     font-size: 9px;
@@ -24,7 +24,7 @@ html{
     background-color: greenyellow;*/
     padding-top: 15px;
     margin-left: 15%;    
-    width: 580px;
+    width: 560px;
     
 }
 /*stile per la riga inerente alla pagina punti*/
@@ -46,13 +46,13 @@ html{
     margin-left: 40px;
     padding-left: 20px;
     padding-top: 15px;
-    width: 90px;
+    width: 100px;
     
 }
 
 /*sezione dell'header principale con campo ricerca*/
-.header{
-    font-family: 'Heebo', sans-serif;
+.mid_header{
+    font-family: 'Mulish', sans-serif;
     background-color: white;    
     height: 120px;
     padding: 5px;
@@ -66,38 +66,46 @@ html{
 }
 
 /*nome sito*/
-.logo {
+.mid_header .logo {
     margin-top: 15px;
     margin-left: 15%;
     margin-right: 5%;
-    font-family: 'Patua One', cursive;
+    font-family: 'Luckiest Guy', cursive;
     width: 250px;
 }
 
+.mid_header .search_container{
+    font-size: 0;
+}
+
 /*campo ricerca*/
-.search_field{
+.mid_header .search_container input[type=text]{    
     margin-top: 15px;
     border-radius: 5px 0px 0px 5px;
     background-color: #f8f8ff;
-    height: 50px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: 15px 15px 15px 15px;
+    height: 20px;
     width: 190px;
-    font-size: 10px;       
+         
     
 }
-/*testo campo ricerca*/
-.search_field p{
-    margin-top: 10px;
-    font-size: 10px;
-    padding: 8px 8px 8px 8px;
+
+.mid_header .search_container button{
+    border-radius: 0px 5px 5px 0px;
+    background: red;    
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    height: 50px;
+    width: 50px;
+    
 }
 
-/*pulsante ricerca*/
-.search_field_btn{
-    margin-top: 15px;
-    border-radius: 0px 5px 5px 0px;
-    background-color: red;
-    padding: 16px 16px 16px 16px;
-}
 
 /*icona carrello*/
 .shop_icon{
