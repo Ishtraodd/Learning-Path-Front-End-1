@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    width: 100%;
 }
 
 /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
@@ -142,18 +143,22 @@ html{
 
 /* menu di navigazione, stile*/
 .menunav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: #193B80;
     overflow: hidden;
     margin-top: 15px;
     margin-left: 15%;
+    margin-right: 15%;
 }
 
 /*menu navigazione, stile testo*/
 .menunav a{
-    float: left;
+    
     color: white;
-    text-align: center;
+    font-family: 'Mulish', sans-serif;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
 }
