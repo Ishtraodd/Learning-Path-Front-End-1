@@ -2,7 +2,6 @@ html{
     height: 100%;
 }
 
-
 /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
 .upper_header{
     font-family: 'Heebo', sans-serif;
@@ -40,7 +39,7 @@ html{
 } 
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
-.loyalty{
+.loyalty_program{
     /*background-color: greenyellow;
     border: solid green 2px;*/
     margin-right: 15%;
