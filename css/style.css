@@ -1,145 +1,16 @@
-html, body{
+html{
     height: 100%;
 }
 
-/* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
-.upper_header {
-    font-family: 'Heebo', sans-serif;
-    border-radius: 5px;
-    background-color: #F8F8FF;
+.upper_header{
+    background-color: darkgray;
+}
+
+.need_help{
     font-size: 10px;
-    height: 50px;      
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: flex-start;
+    float: left;
 }
 
-/*stile per la riga inerente alla pagina aiuto*/
-.need_help {
-    border-color: darkblue;
-    padding-top: 15px;
-    margin-left: 10%;
-    width: 580px;
-    
-}
-
-/*stile per la riga inerente alla pagina punti*/
-.gift_card {
-    
-    margin-right: 30px;
-    padding-left: 20px;
-    padding-top: 15px;
-    width: 80px;
-
-}
-
-/*stile per la riga inerente alla pagina punti fedeltà*/
-.loyalty {
-    border-color: darkblue;
-    margin-right: 15%; 
-    padding-top: 15px;
-    width: 100px;
-}
-
-/*sezione dell'header principale con campo ricerca*/
-.mid_header {
-    font-family: 'Heebo', sans-serif;
-    background-color: white;
-    height: 120px;
-    padding: 5px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: flex-start;
-    
-}
-
-
-/*nome sito*/
-.logo {
-    
-    margin-right: 5%;
-    margin-left: 0;
-    font-family: 'Luckiest Guy', sans-serif;
-    width: 220px;
-    
-}
-
-.search{
-    font-size: 0;
-}
-
-
-/*campo ricerca*/
-form.search input[type=text] {
-    font-family: 'Heebo', sans-serif;
-    border-radius: 5px 0px 0px 5px;
-    background-color: #f8f8ff;
-    height: 28px;
-    width: 190px;
-    border-bottom-style: hidden;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-}
-
-/*pulsante ricerca*/
-form.search button {
-    font-family: 'Heebo', sans-serif;
-    border-radius: 0px 5px 5px 0px;
-    background-color: red;
-    height: 30px;
-    width: 30px;
-    border-bottom-style: hidden;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-}
-
-.shop_icon {
-    /*width: 60px;
-    height: 50px;*/
-    margin-left: 90px;
-    padding: 16px 16px 16px 16px;
-}
-
-/*immagine profilo di collegamento alla pagina profilo*/
-.user_icon {
-    margin-left: 80px;
-    height: 40px;
-    width: 40px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-/*nome utente*/
-.user_name {
-    margin-left: 50px;
-    font-size: 10px;
-}
-
-/*freccia menu a discesa*/
-.fa-caret-down {
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-/* menu di navigazione, stile*/
-.menunav {
-    background-color: #193B80;
-    margin-top: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 50px;
-}
-
-/*menu navigazione, stile testo*/
-.menunav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 15px;
+.gift_card{
+    font
 }
