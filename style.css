@@ -147,7 +147,7 @@
     list-style-type: none;
     background-color: #193B80;
     overflow: hidden; 
-    display: flex;   
+    display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
@@ -156,25 +156,25 @@
 }
 
 /*menu navigazione, stile testo*/
+
 .menunav a {
-    font-family: 'Mulish', sans-serif;
-    
+    font-family: 'Mulish', sans-serif;  
     color: white;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1px;
     text-decoration: none;
     background-color: #193B80;
-    padding: 20px 5px;
+    padding: 20px 25px 20px 25px;
     display: inline-block;
     width: 100%;
-    text-align: center;
+    
  }
 
- 
  .menunav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 3em 1.5em;
+    padding: 0 3em;
  }
  
  .menu_pages ul {
@@ -185,32 +185,11 @@
     display: flex;
  }
  
- .menu_pages li {
-    flex: 3;    
- }
  /*
- 
- @media all and (max-width: 1000px) {
-    .navigation ul {
-       flex-wrap: wrap;
-    }
-    
-    .navigation li {
-       flex: 1 1 50%;
-    }
- 
-    .navigation .user {
-       flex: 1 1 33.33%;
-    }
+ .menu_pages li {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
  }
+*/
  
- @media all and (max-width: 480px) {
-    .navigation li {
-       flex-basis: 100%;
-    }
- 
-    .navigation .user {
-       flex-basis: 50%;
-    }
- }
- */
