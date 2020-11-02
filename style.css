@@ -147,8 +147,7 @@
     list-style-type: none;
     background-color: #193B80;
     overflow: hidden; 
-    display: flex;
-    
+    display: flex;   
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
@@ -157,8 +156,13 @@
     margin-right: 15%;*/
 }
 
+.menu_pages{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 60px;
+}
 /*menu navigazione, stile testo*/
-.menunav a{
+.menu_pages a{
     color: white;
     font-family: 'Mulish', sans-serif;
     padding: 14px 16px;
