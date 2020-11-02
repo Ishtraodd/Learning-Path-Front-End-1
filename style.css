@@ -157,7 +157,8 @@
 
 /*menu navigazione, stile testo*/
 .menunav a {
-    
+    font-family: 'Mulish', sans-serif;
+    font-size: 9px;
     color: white;
     font-weight: 300;
     letter-spacing: 2px;
