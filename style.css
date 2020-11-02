@@ -1,3 +1,9 @@
+/*body {
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    }*/
+
 
 
 /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
@@ -7,9 +13,8 @@
     background-color:#F8F8FF;
     font-size: 9px;
     height: 50px;
+    width: 100%;
     /*padding: 5px;*/
-    /*margin-left: 0;
-    margin-right: 0;*/
     display: flex;
     flex-flow: row wrap;    
     align-items: center;
@@ -21,7 +26,7 @@
     /*border: solid green 2px;
     background-color: greenyellow;*/
     padding-top: 15px;
-    margin-left: 15%;    
+    /*margin-left: 15%;    */
     width: 560px;
     
 }
@@ -40,7 +45,7 @@
 .loyalty_program{
     /*background-color: greenyellow;
     border: solid green 2px;*/
-    margin-right: 15%;
+    /*margin-right: 15%;*/
     margin-left: 40px;
     padding-left: 20px;
     padding-top: 15px;
@@ -53,12 +58,11 @@
     font-family: 'Mulish', sans-serif;
     background-color: white;    
     height: 120px;
-    padding: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    /*padding: 5px;*/
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     align-content: flex-start;
 
 }
@@ -66,7 +70,7 @@
 /*nome sito*/
 .mid_header .logo {
     margin-top: 15px;
-    margin-left: 15%;
+    /*margin-left: 15%;*/
     margin-right: 5%;
     font-family: 'Luckiest Guy', cursive;
     width: 250px;
@@ -110,14 +114,14 @@
     margin-top: 15px;
     /*width: 60px;
     height: 50px;*/
-    margin-left: 90px;    
+    margin-left: 60px;    
     padding: 16px 16px 16px 16px;
 }
 
 /*immagine profilo di collegamento alla pagina profilo*/
 .user_icon{
     margin-top: 15px;
-    margin-left: 80px;
+    margin-left: 50px;
     height: 40px;
     width: 40px;
     background-color: red;
@@ -127,32 +131,34 @@
 /*nome utente*/
 .user_name{
     margin-top: 15px;
-    margin-left: 50px;    
+    margin-left: 60px;    
     font-size: 10px;
 }
 
 /*freccia menu a discesa*/
 .fa-caret-down{
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 10px;    
+    margin-left: 30px;
+    /*margin-right: 10px; */   
 }
 
 /* menu di navigazione, stile*/
 .menunav{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     background-color: #193B80;
-    overflow: hidden;
-    margin-top: 15px;
-    margin-left: 15%;
-    margin-right: 15%;
+    overflow: hidden; 
+    display: flex;
+    
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    /*margin-left: 15%;
+    margin-right: 15%;*/
 }
 
 /*menu navigazione, stile testo*/
 .menunav a{
-    
     color: white;
     font-family: 'Mulish', sans-serif;
     padding: 14px 16px;
