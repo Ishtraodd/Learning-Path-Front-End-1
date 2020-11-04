@@ -7,34 +7,34 @@
     height: 50px;
     width: 100%;
     display: flex;
-    flex-flow: row wrap;    
+    flex-flow: wrap;    
     align-items: center;
     justify-content: center;
     align-content: flex-start;
-    
+    /*box-sizing: border-box;*/
+    /*padding: 10px 10px 10px 10px;*/
 }
 /*stile per la riga inerente alla pagina aiuto*/
 .need_help{
-    /*border: solid green 2px;*/
-    margin-top: 15px;
-    margin-left: 12%;
-    width: 600px;
-    margin-right: 55px;
+    border: solid green 2px;
+    width: 50%;
+    text-align: left;
+    
+    
 }
 /*stile per la riga inerente alla pagina punti*/
 .gift_card{
-    /*border: solid green 2px;*/
-    margin-top: 15px;
-    margin-right: 20px;
-    width: 90px;
+    border: solid green 2px;
+    width: 15%;
+    text-align:right;
 } 
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
 .loyalty_program{
-    /*border: solid green 2px;*/
-    margin-top: 15px;
-    width: 100px;
-    margin-right: 12%;
+    border: solid green 2px;
+    width: 15%;
+    text-align:right;
+
 }
 
 /*sezione dell'header principale con campo ricerca*/
