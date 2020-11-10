@@ -1,176 +1,159 @@
-/* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
+
+ /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
 .upper_header{
-    font-family: 'Mulish', sans-serif;
-    border-radius: 5px 5px 5px 5px;
-    background-color:#F8F8FF;
-    font-size: 9px;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    flex-flow: wrap;    
-    align-items: center;
-    justify-content: center;
-    align-content: flex-start;
-    /*box-sizing: border-box;*/
-    /*padding: 10px 10px 10px 10px;*/
+  font-family: 'Mulish', sans-serif;
+  border-radius: 5px 5px 0px 0px;
+  background-color:#eaeaee;
+  font-size: 9px;
+  height: 40px;  
+  display: flex;
+  flex-flow: wrap;    
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 10%;
+  
 }
+
+.fas{
+  padding: 0 10px 0 10px;
+  
+}
+
 /*stile per la riga inerente alla pagina aiuto*/
 .need_help{
-    border: solid green 2px;
-    width: 50%;
-    text-align: left;
-    
-    
+  margin-right: auto;
+  padding: 0px 20px;
+  
 }
 /*stile per la riga inerente alla pagina punti*/
 .gift_card{
-    border: solid green 2px;
-    width: 15%;
-    text-align:right;
+  display: flex;
+  padding: 0px 20px;
+
 } 
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
 .loyalty_program{
-    border: solid green 2px;
-    width: 15%;
-    text-align:right;
-
+  display: flex;
+  padding: 0px 20px;
+  margin-left: 30px;
 }
 
 /*sezione dell'header principale con campo ricerca*/
 .mid_header{
-    font-family: 'Mulish', sans-serif;
-    background-color: white;    
-    height: 120px;
-    /*padding: 5px;*/
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: flex-start;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 9px;
+  height: 50px;  
+  display: flex;  
+  flex-flow: wrap;    
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10%;
+  margin: 20px auto;
 
 }
 
 /*nome sito*/
-.mid_header .logo {
-    margin-top: 15px;
-    /*margin-left: 15%;*/
-    margin-right: 5%;
-    font-family: 'Luckiest Guy', cursive;
-    width: 250px;
+.mid_header .logo {  
+  padding: 0px 20px;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  margin-right: auto;
 }
 
-.mid_header .search_container{
-    font-size: 0;
+.search_container{
+  display: flex;
+  font-size: 0;  
+  margin-right: 50%;
 }
 
 /*campo ricerca*/
-.mid_header .search_container input[type=text]{    
-    margin-top: 15px;
-    border-radius: 5px 0px 0px 5px;
-    background-color: #f8f8ff;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: hidden;
-    padding: 15px 15px 15px 15px;
-    height: 20px;
-    width: 190px;
-         
-    
+.mid_header .search_container input[type=text]{      
+  
+  border-radius: 5px 0px 0px 5px;
+  background-color: #eaeaee;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 30px;
+  padding: 0 0 0 10px;
 }
 
 .mid_header .search_container button{
-    border-radius: 0px 5px 5px 0px;
-    background: red;    
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: hidden;
-    height: 50px;
-    width: 50px;
-    
+  
+  border-radius: 0px 5px 5px 0px;
+  background: red;    
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;  
+  height: 30px;
+  width: 50px;
+  
 }
 
 
-/*icona carrello*/
-.shop_icon{
-    margin-top: 15px;
-    /*width: 60px;
-    height: 50px;*/
-    margin-left: 60px;    
-    padding: 16px 16px 16px 16px;
-}
 
-/*immagine profilo di collegamento alla pagina profilo*/
-.user_icon{
-    margin-top: 15px;
-    margin-left: 50px;
-    height: 40px;
-    width: 40px;
-    background-color: red;
-    border-radius: 50%;
-}
 
-/*nome utente*/
-.user_name{
-    margin-top: 15px;
-    margin-left: 60px;    
-    font-size: 10px;
-}
 
-/*freccia menu a discesa*/
-.fa-caret-down{
-    margin-top: 10px;
-    margin-left: 30px;
-    /*margin-right: 10px; */   
-}
+
+
+
+
+
+
+
+
+
+
+
 
 /* menu di navigazione, stile*/
 .menunav{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 3em;
-    list-style-type: none;
-    background-color: #193B80;
-    overflow: hidden; 
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: flex-start;
-    
+  
+  margin: 20px auto;
+  padding: 0 3em;
+  list-style-type: none;
+  background-color: #193B80;
+  overflow: hidden; 
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
 }
 
 /*menu navigazione, stile testo*/
 
 .menunav a {
-    font-family: 'Mulish', sans-serif;  
-    color: white;
-    font-weight: 200;
-    font-size: 15px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    background-color: #193B80;
-    padding: 20px 24px 20px 24px;
-    display: inline-block;
-    width: 100%;
-    
- }
- 
- .menu_pages ul {
-    background-color: #193B80;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
- }
+  font-family: 'Mulish', sans-serif;  
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  background-color: #193B80;
+  padding: 20px 24px 20px 24px;
+  display: inline-block;
+  
+  
+}
 
- /*
- .menu_pages li {
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
- }
+.menu_pages ul {
+  background-color: #193B80;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/*
+.menu_pages li {
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
 */
- 
