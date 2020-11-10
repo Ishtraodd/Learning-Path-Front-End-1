@@ -1,76 +1,83 @@
-
- /* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
-.upper_header{
+/* parte alta dell'header, con i link alla pagina di contatto, pagina fedeltà e punti*/
+.upper_header {
   font-family: 'Mulish', sans-serif;
   border-radius: 5px 5px 0px 0px;
-  background-color:#eaeaee;
+  background-color: #eaeaee;
   font-size: 9px;
-  height: 40px;  
+  height: 40px;
   display: flex;
-  flex-flow: wrap;    
+  flex-flow: wrap;
   align-items: center;
   justify-content: flex-end;
   padding: 10px 10%;
-  
+
 }
 
-.fas{
+.fas {
   padding: 0 10px 0 10px;
-  
+
 }
 
 /*stile per la riga inerente alla pagina aiuto*/
-.need_help{
+.need_help {
   margin-right: auto;
+  margin-left: 0;
   padding: 0px 20px;
-  
+
 }
+
 /*stile per la riga inerente alla pagina punti*/
-.gift_card{
+.gift_card {
   display: flex;
   padding: 0px 20px;
 
-} 
+}
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
-.loyalty_program{
-  display: flex;
-  padding: 0px 20px;
+.loyalty_program {
+  display: flex;  
   margin-left: 30px;
+  margin-right: 0;
 }
 
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
 /*sezione dell'header principale con campo ricerca*/
-.mid_header{
+.mid_header {
   font-family: 'Mulish', sans-serif;
   border-radius: 5px 5px 5px 5px;
   font-size: 9px;
-  height: 50px;  
-  display: flex;  
-  flex-flow: wrap;    
+  height: 50px;
+  display: flex;
+  flex-flow: wrap;
   align-items: center;
-  justify-content: flex-start;
   padding: 10px 10%;
   margin: 20px auto;
 
 }
 
 /*nome sito*/
-.mid_header .logo {  
+.mid_header .logo {
   padding: 0px 20px;
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
   margin-right: auto;
 }
 
-.search_container{
+.search_container {
   display: flex;
-  font-size: 0;  
-  margin-right: 50%;
+  font-size: 0;
+  margin-right: 30%;
 }
 
 /*campo ricerca*/
-.mid_header .search_container input[type=text]{      
-  
+.mid_header .search_container input[type=text] {
+
   border-radius: 5px 0px 0px 5px;
   background-color: #eaeaee;
   border-top-style: hidden;
@@ -81,20 +88,23 @@
   padding: 0 0 0 10px;
 }
 
-.mid_header .search_container button{
-  
+.mid_header .search_container button {
+
   border-radius: 0px 5px 5px 0px;
-  background: red;    
+  background: red;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom-style: hidden;  
+  border-bottom-style: hidden;
   height: 30px;
   width: 50px;
-  
+
 }
 
-
+.shopping_cart{
+  display: flex;  
+  margin-right: 160px;
+}
 
 
 
@@ -111,13 +121,13 @@
 
 
 /* menu di navigazione, stile*/
-.menunav{
-  
+.menunav {
+
   margin: 20px auto;
   padding: 0 3em;
   list-style-type: none;
   background-color: #193B80;
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -129,7 +139,7 @@
 /*menu navigazione, stile testo*/
 
 .menunav a {
-  font-family: 'Mulish', sans-serif;  
+  font-family: 'Mulish', sans-serif;
   color: white;
   font-weight: 200;
   font-size: 15px;
@@ -138,8 +148,8 @@
   background-color: #193B80;
   padding: 20px 24px 20px 24px;
   display: inline-block;
-  
-  
+
+
 }
 
 .menu_pages ul {
