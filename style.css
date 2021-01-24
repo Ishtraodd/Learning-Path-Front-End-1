@@ -12,8 +12,8 @@
   height: 60px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 10px 10%;
+  align-items: center;  
+  padding: 0 10% 0 10%;
   
 }
 
@@ -23,18 +23,15 @@
 }
 
 /*stile per la riga inerente alla pagina aiuto*/
-.need_help {
+.need_help {  
   margin-right: auto;
-  margin-left: 0;
-  padding: 0px 20px;
-
+  justify-content: flex-start;
 }
 
 /*stile per la riga inerente alla pagina punti*/
 .gift_card {
   display: flex;
   padding: 0px 20px;
-
 }
 
 /*stile per la riga inerente alla pagina punti fedeltà*/
@@ -60,18 +57,16 @@
   display: flex;
   flex-flow: nowrap;
   align-items: center;
+  justify-content: space-between;
   padding: 0 10% 0 10%;
-  /*padding: 25px 0 20px 0;
-  margin: 20px auto 20px auto;*/
-
 }
 
 /*nome sito*/
-.mid_header .logo {
-  padding: 0px 20px;
+.mid_header .logo {  
   font-family: 'Luckiest Guy', cursive;
   font-size: 20px;
   margin-right: auto;
+  justify-content: flex-start;
 }
 
 .search_container {
@@ -82,7 +77,6 @@
 
 /*campo ricerca*/
 .mid_header .search_container input[type=text] {
-
   border-radius: 5px 0px 0px 5px;
   background-color: #eaeaee;
   border-top-style: hidden;
@@ -94,7 +88,6 @@
 }
 
 .mid_header .search_container button {
-
   border-radius: 0px 5px 5px 0px;
   background: red;
   border-top-style: hidden;
@@ -103,12 +96,11 @@
   border-bottom-style: hidden;
   height: 30px;
   width: 50px;
-
 }
 
 .shopping_cart{
   display: flex;  
-  margin-right: auto;
+  margin-right: 6%;  
   justify-content: flex-end;
 }
 
@@ -120,7 +112,6 @@
 
 
 /* MENU NAVIGAZIONE */
-
 
 .navbar {
   width: 100%;
@@ -142,9 +133,7 @@
   padding: 25px 0 20px 0;
   color: white;
   text-decoration: none;
-  font-size: 12px;    
-  
-  
+  font-size: 12px;      
 }
 
 
