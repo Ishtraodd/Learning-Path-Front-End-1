@@ -137,6 +137,22 @@
 }
 
 
+/*Percorso pagina*/
+
+.root_page_section{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;  
+  padding: 0 10% 0 10%;
+}
+
+.root_page_path{
+  padding-top: 15px;
+  padding-bottom: 20px;  
+  font-family: 'Mulish', sans-serif;
+  font-size: 9px;    
+}
+
 
 @media screen and (max-width: 500px) {
   .navbar a {
@@ -148,29 +164,3 @@
 }
 
 
-
-/*
-.menunav {
-  width: 100%;
-  margin-top: 30px;  
-  list-style-type: none;
-  background-color: #193B80;
-  
-}
-
-
-
-.menunav a {
-  float: left;
-  font-family: 'Mulish', sans-serif;
-  color: white;
-  font-weight: 200;
-  font-size: 15px;
-  letter-spacing: 1px;
-  text-decoration: none;  
-  text-align: center;
-  padding: 20px 24px 20px 24px;
-  width: 14,28571428571429%;    
-  
-  /*14,28571428571429 valore di distanziamento, 100/7 (il numero di elementi)
-}*/
