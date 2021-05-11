@@ -153,6 +153,20 @@
   font-size: 9px;    
 }
 
+/*rating star checking style*/
+
+.rating_container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 3% 10% 0 10%;
+  font-size: 10px;
+}
+
+.rating_checked{
+  color: #FFD700;
+  size: 4px;
+}
 
 @media screen and (max-width: 500px) {
   .navbar a {
