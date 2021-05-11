@@ -168,6 +168,25 @@
   size: 4px;
 }
 
+.hotels{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Mulish', 'sans-serif';
+}
+
+.hotels_name_style{
+  justify-content: flex-start;
+  padding: 3px 10% 0 10%;
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
