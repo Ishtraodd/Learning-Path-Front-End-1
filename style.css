@@ -168,19 +168,32 @@
   size: 4px;
 }
 
+/*hotel name */
 .hotels{
   display: flex;
   flex-direction: row;
-  font-family: 'Mulish', 'sans-serif';
+  
 }
 
 .hotels_name_style{
   justify-content: flex-start;
-  padding: 3px 10% 0 10%;
-
+  margin-top: 0;
+  padding: 0 0 0 10%;
+  font-size: 20px;
+  font-family: 'Mulish', 'sans-serif';
 }
 
-
+.hotels_flash_offer{
+  justify-content: flex-start;
+  margin-top: 0;
+  margin-right: 0;
+  padding: 0 10% 0 10%;
+  font-size: 10px;
+  background-color: red;
+  border: solid;
+  border-radius: 5px 5px 5px 5px;
+  font-family: 'Mulish', 'sans-serif';
+}
 
 
 
