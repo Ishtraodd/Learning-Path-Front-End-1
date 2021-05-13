@@ -195,6 +195,21 @@
   border-color: transparent;
 }
 
+.hotels_user_rating{
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.hotels_user_rating_style{
+  font-size: 8px;
+  padding: 8px 8px 8px 8px;
+  font-family: 'Mulish', 'sans-serif';
+  background-color: red;
+  border: solid;
+  border-radius: 3px 3px 3px 3px;
+  border-color: transparent;
+}
 
 
 
