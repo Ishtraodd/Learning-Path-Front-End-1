@@ -172,6 +172,7 @@
 .hotels{
   display: flex;
   flex-direction: row;
+  flex-flow: nowrap;
   justify-content: flex-start;
   align-items: center;
 }
@@ -183,9 +184,9 @@
   font-family: 'Mulish', 'sans-serif';
 }
 
-
 .hotels_flash_offer_style{
   font-size: 8px;
+  color: white;
   padding: 3px 3px 3px 3px;
   font-family: 'Mulish', 'sans-serif';
   margin-left: 10px;
@@ -195,22 +196,27 @@
   border-color: transparent;
 }
 
-.hotels_user_rating{
-  display: flex;
-  justify-content: center;
-  margin-left: 10%;
-}
-
 .hotels_user_rating_style{
-  font-size: 8px;
-  padding: 8px 8px 8px 8px;
-  font-family: 'Mulish', 'sans-serif';
+  margin-left: auto;
+  margin-right: 10%;
   background-color: red;
   border: solid;
   border-radius: 3px 3px 3px 3px;
   border-color: transparent;
+  text-align: center;
+  font-size: 8px;
+  padding: 5px 11px 5px 11px;
+  font-family: 'Mulish', 'sans-serif';
+  color: white;
 }
-
+/*
+.hotels_user_rating_style{
+  text-align: center;
+  font-size: 8px;
+  padding: 5px 11px 5px 11px;
+  font-family: 'Mulish', 'sans-serif';
+}
+*/
 
 
 
