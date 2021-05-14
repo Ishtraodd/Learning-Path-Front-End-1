@@ -227,7 +227,14 @@
   font-family: 'Mulish', 'sans-serif';
 }
 
+.hotels_image_container{
+  margin-left: 10%;
+}
 
+.hotels_image{
+  width: 500px;
+  height: 300px;
+}
 
 
 @media screen and (max-width: 500px) {
