@@ -207,7 +207,7 @@
   border-color: transparent;
   text-align: center;
   font-size: 8px;
-  padding: 5px 11px 5px 11px;
+  padding: 3px 11px 3px 11px;
   font-family: 'Mulish', 'sans-serif';
   color: white;
 }
@@ -218,6 +218,8 @@
   flex-direction: row;
   margin-left: 10%;
   margin-right: auto;
+  /*border-style: solid;
+  border-color: black;*/
 }
 
 .hotels_subs{
