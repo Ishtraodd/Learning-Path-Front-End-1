@@ -227,11 +227,43 @@
   font-family: 'Mulish', 'sans-serif';
 }
 
-.hotels_image_container{
+.hotels_preview_container{
+  display: flex;
   margin-left: 10%;
   margin-top: 10px;
-  
+ 
 }
+
+.hotels_image{
+
+}
+
+.hotels_data{
+  display: flex;
+  flex-direction: column;
+}
+
+.hotels_details{
+  border-radius: 8px 8px 8px 8px;
+  display: block;
+  background-color: #193B80;
+  margin-left: 40px;
+  height: 290px;
+  width: 450px;
+}
+
+.hotels_map{
+  border-radius: 8px 8px 8px 8px;
+  display: block;
+  background-color: #193B80; 
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 290px;
+  width: 450px;
+}
+
+
+
 
 
 
