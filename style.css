@@ -298,8 +298,17 @@
   color: white;
 }
 
+.button_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .view_other_options{
   background-color: red;
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
+  border-color: transparent;
 }
 
 
