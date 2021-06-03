@@ -276,7 +276,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: 'Mulish', sans-serif;
+}
 
+.price_starts{
+  font-size: 10px
+}
+
+.guest_number{
+  font-size: 15px;
 }
 
 .hotels_details_flex_2{
@@ -288,6 +295,7 @@
   font-family: 'Mulish', sans-serif;
 
 }
+
 
 .hotels_details_flex_3{
   margin-right: 30px;
