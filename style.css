@@ -278,17 +278,11 @@
   font-family: 'Mulish', sans-serif;
 }
 
-.price_starts{
-  font-size: 10px
-}
-
-.guest_number{
-  font-size: 15px;
-}
 
 .hotels_details_flex_2{
   margin-right: 30px;
   margin-left: 30px;
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -296,10 +290,14 @@
 
 }
 
+.room_size{
+  padding: 10px 0 0 0;
+}
 
 .hotels_details_flex_3{
   margin-right: 30px;
   margin-left: 30px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -310,6 +308,7 @@
 .hotels_details_flex_4{
   margin-right: 30px;
   margin-left: 30px;
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -326,7 +325,7 @@
 
 /*Other options button style*/
 .button_container{
-  margin-top: 90px;
+  margin-top: 25px;
   justify-content: center;
   align-self: flex-end;
   display: flex;
