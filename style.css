@@ -291,7 +291,8 @@
 }
 
 .room_size{
-  padding: 10px 0 0 0;
+  position: absolute;
+  align-items:center;
 }
 
 .hotels_details_flex_3{
@@ -308,7 +309,7 @@
 .hotels_details_flex_4{
   margin-right: 30px;
   margin-left: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
