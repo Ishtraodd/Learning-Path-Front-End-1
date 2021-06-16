@@ -279,13 +279,13 @@
 }
 
 .guest_number{
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .hotels_details_flex_2{
   margin-right: 30px;
   margin-left: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -293,6 +293,9 @@
 
 }
 
+.room_size{
+  font-size: 13px;
+}
 
 
 .hotels_details_flex_3{
@@ -326,7 +329,7 @@
 
 /*Other options button style*/
 .button_container{
-  margin-top: 25px;
+  margin-top: 20px;
   justify-content: center;
   align-self: flex-end;
   display: flex;
@@ -365,6 +368,27 @@
   font-feature-settings: 'liga';
 }
 
+.material-icons-outlined {
+  font-family: 'Material Icons';
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 
 
 @media screen and (max-width: 500px) {
