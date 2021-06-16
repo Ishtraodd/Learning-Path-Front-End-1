@@ -115,7 +115,7 @@
 
 .navbar {
   width: 100%;
-  height: 70px;
+  height: 65px;
   background-color: #0e1936;
   overflow: auto;    
 }
@@ -278,6 +278,9 @@
   font-family: 'Mulish', sans-serif;
 }
 
+.guest_number{
+  font-size: 15px;
+}
 
 .hotels_details_flex_2{
   margin-right: 30px;
@@ -290,10 +293,7 @@
 
 }
 
-.room_size{
-  position: absolute;
-  align-items:center;
-}
+
 
 .hotels_details_flex_3{
   margin-right: 30px;
@@ -342,6 +342,28 @@
   border-color: transparent;
 }
 
+/* Material icons declaration style*/
+.material-icons {
+  font-family: 'Material Icons';
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 
 
 
