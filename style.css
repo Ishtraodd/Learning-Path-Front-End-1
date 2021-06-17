@@ -249,7 +249,7 @@
   display: block;
   color:white;
   background-color: #0e1936;
-  margin-left: 40px;
+  margin-left: 25px;
   height: 290px;
   width: 450px;
 }
@@ -261,7 +261,7 @@
   display: block;
   background-color: #0e1936; 
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 25px;
   height: 290px;
   width: 450px;
 }
@@ -391,7 +391,7 @@
 }
 
 .summary {
-  margin-top: 50px;;
+  margin-top: 50px;
   width: 100%;
   height: 65px;
   background-color: white;
