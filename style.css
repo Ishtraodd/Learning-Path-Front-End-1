@@ -415,6 +415,96 @@
   font-size: 15px;      
 }
 
+/* Summary title styling */
+
+.summary_title_section{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.summary_title{
+  justify-content: flex-start;
+  font-family: 'Mulish', sans-serif;
+  font-size: 25px;
+}
+
+/*Service included container and data*/
+
+.services_container{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.box{
+  flex: 1;
+  border-radius: 5px 5px 0 0;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  height: 290px;
+}
+
+.box:first-child{
+  margin-right: 40px;
+}
+
+.box_header{
+  display: flex;
+  height: 50px;
+  background-color: #0e1936;
+  color: white;
+  align-items: center;
+}
+
+.box_header a{
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.box_body{
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Mulish', sans-serif;
+}
+
+.right1{
+  margin-bottom: 30px;
+  margin-left: 180px;
+}
+
+.right2{
+  margin-bottom: 30px;
+  margin-left: auto;
+
+}
+/*
+.box_body a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.left1{
+  font-size: 14px;
+}
+
+.right1{
+  font-size: 14px;
+}
+
+.left2 .right2 .left3{
+  margin-top: 20px;
+  font-size: 14px;
+}
+*/
+
+
 
 @media screen and (max-width: 500px) {
   .navbar a {
