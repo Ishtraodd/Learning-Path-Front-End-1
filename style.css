@@ -417,7 +417,27 @@
 }
 
 
+.material-icons_calendar{
+  font-family: 'Material Icons';
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  margin-right: 15px;
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
 
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
 
 
 /*Summary section*/
@@ -526,7 +546,7 @@
   display: inline-block;
   font-size: 10px;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .package_summary_details{
