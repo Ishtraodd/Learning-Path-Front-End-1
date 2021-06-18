@@ -3,6 +3,10 @@
   box-sizing: border-box
 }
 
+.body{
+  background-color: #B9B6CB;
+}
+
 .upper_header {
   
   font-family: 'Mulish', sans-serif;
@@ -390,6 +394,32 @@
   font-feature-settings: 'liga';
 }
 
+.material-icons_leftbox{
+  font-family: 'Material Icons';
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  float: left;
+  
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+
 /*Summary section*/
 .summary {
   margin-top: 50px;
@@ -441,10 +471,8 @@
 .box{
   flex: 1;
   border-radius: 5px 5px 0 0;
-  border-style: solid;
-  border-color: black;
   background-color: white;
-  height: 290px;
+  height: 250px;
 }
 
 .box:first-child{
@@ -453,6 +481,7 @@
 
 .box_header{
   display: flex;
+  border-radius: 5px 5px 0 0;
   height: 50px;
   background-color: #0e1936;
   color: white;
@@ -482,27 +511,41 @@
 .right2{
   margin-bottom: 30px;
   margin-left: auto;
-
-}
-/*
-.box_body a{
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
-.left1{
-  font-size: 14px;
+.left1_2{
+  width: 180px;
+  display: inline-block;
 }
 
-.right1{
-  font-size: 14px;
+.right1_2{
+  font-size: 15px;
 }
 
-.left2 .right2 .left3{
-  margin-top: 20px;
-  font-size: 14px;
+.right2_2{
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 50px;
+  margin-left: 33px;
 }
-*/
+
+.package_summary_details{
+  display: flex;
+  border-radius: 5px 5px 0 0;
+  height: 50px;
+  background-color: #0e1936;
+  color: white;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+
+.package_summary_details a{
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
 
 
 
